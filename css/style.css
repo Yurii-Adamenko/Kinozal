@@ -37,6 +37,7 @@
 }
 
 .panel {
+  margin-bottom: 30px;
   border: none;
   background-color: #f8f8f8;
 }
@@ -86,6 +87,10 @@ a:hover, a:focus {
   color: #fff;
   letter-spacing: 5px;
   text-shadow: 1px 1px 5px #000;
+}
+
+aside {
+  margin-top: 20px;
 }
 
 .carousel {
@@ -262,7 +267,6 @@ section h2::after {
 }
 
 .film-news-item__btn {
-  float: right;
   -webkit-transition: background-color 0.25s;
   -o-transition: background-color 0.25s;
   transition: background-color 0.25s;
@@ -270,6 +274,27 @@ section h2::after {
 
 .film-news-item:last-child {
   margin-bottom: 50px;
+}
+
+.film-info__cell {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+.film-info__cell__badge {
+  margin: 0 20px 0 5px;
+  font-size: 13px;
+}
+
+.film-info__cell__badge:last-child {
+  margin-right: 0;
+}
+
+.film-comments .panel-heading {
+  letter-spacing: 0;
+  font-size: 14px;
 }
 
 .footer {
