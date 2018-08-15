@@ -60,6 +60,9 @@ aside {
 			background-color: $color-highlighter;
 			color: #fff;
 			transition: all 0s;
+			.badge {
+				background-color: #333333;
+			}
 		}
 	}
 }

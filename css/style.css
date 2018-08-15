@@ -167,6 +167,10 @@ aside {
   transition: all 0s;
 }
 
+.top-films a:hover .badge {
+  background-color: #333333;
+}
+
 section h1 {
   margin-bottom: 40px;
 }
